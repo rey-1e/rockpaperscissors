@@ -49,12 +49,12 @@ function playRound(computerChoice, humanChoice) {
 }
 
 function playGame() {
-    for(int i = 0; i < 5; i++) {
+    for(let i = 0; i < 5; i++) {
         let currHumanChoice = getHumanChoice();
         let currComputerChoice = getComputerChoice();
 
         playRound(currComputerChoice, currHumanChoice);
-        cout << `Human : ${humanScore}` << " " << `Computer : ${computerScore}`;
+        console.log(`Human : ${humanScore}` + " " + `Computer : ${computerScore}`);
     }
 
     //final winner : 
@@ -67,3 +67,5 @@ function playGame() {
     }
 }
 
+
+playGame();
