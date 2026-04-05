@@ -1,0 +1,15 @@
+* {
+    background-color: yellow;
+}
+
+.para {
+    display: flex;            
+    justify-content: center;    
+    align-items: center; 
+    color : blue;
+    min-height: 100vh;
+    text-align : center; 
+    font-size : 40px; 
+    font-family : monospace, 'Courier New', Courier;
+    font-weight : bold;
+}
