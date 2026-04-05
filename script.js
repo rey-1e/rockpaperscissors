@@ -12,5 +12,10 @@ function getComputerChoice() {
     }
 }
 
-console.log(getComputerChoice());
-console.log(getComputerChoice());
+function getHumanChoice() {
+    let ans = prompt("Choose amongst (ROCK, PAPER, SCISSORS)", "VALUE");
+    ans = ans.toLowerCase(ans);
+    
+    return ans; 
+}
+
