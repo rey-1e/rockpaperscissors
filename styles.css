@@ -1,15 +1,37 @@
-* {
-    background-color: yellow;
+header {
+    background-color: blanchedalmond;
+    padding : 20px;
+    text-align: center;
+    font-size: 40px;
+    border : 1px solid black;
+    
 }
 
-.para {
-    display: flex;            
-    justify-content: center;    
-    align-items: center; 
-    color : blue;
-    min-height: 95vh;
-    text-align : center; 
-    font-size : 40px; 
-    font-family : monospace, 'Courier New', Courier;
-    font-weight : bold;
+.flex-container {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.score-container {
+    margin-top : 10px;
+    display : flex; 
+    justify-content: space-evenly;
+    margin-bottom : 10px;
+}
+
+button {
+    padding : 10px;
+    padding-left : 30px;
+    padding-right : 30px;
+    text-align: center;
+    margin : 20px;
+}
+
+#humanScore {
+    display: inline;
+}
+#computerScore {
+    display : inline; 
 }
